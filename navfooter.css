@@ -1,0 +1,219 @@
+
+.loccontet .h3center{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.h1center{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    place-items: center;
+}
+
+.primary-1{
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn button{
+    margin: 26px 0;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    padding: 22px 39px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn button:hover{
+    background: black;
+    color: white;
+}
+
+
+#hedar{
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+#hedar .logomain{
+    padding-top: 68px;
+}
+#hedar .logomain img{
+    max-width: 320px;
+    width: 100%;
+}
+
+#hedar .navbar{
+ width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#hedar .navbar .closetogle{
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 16px;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    display: none;
+}
+
+#hedar .navbar .closetogle .boxr-1{
+    transform: rotate(45deg);
+}
+#hedar .navbar .closetogle .boxr-2{
+    transform: rotate(-45deg);
+}
+
+#hedar .navbar .closetogle span{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    border-radius: 12px;
+}
+
+
+#hedar .navbar ul li{
+    list-style: none;
+    padding: 35px;
+    
+
+}
+
+#hedar .navbar ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    color: unset;
+    
+}
+
+#hedar .butttogle{
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 52px;
+    z-index: 9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    display: none;
+}
+
+#hedar .butttogle span{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    border-radius: 12px;
+}
+
+
+/* footar ki style ho raha hai  */
+
+#foot{
+    width: 100%;
+}
+
+#foot .footbox{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 3rem;
+}
+.footbox .footbox-5{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.footbox-1 .ff1{
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+.footbox-1 .ff1 h2 a{
+    color: black;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+.footbox-2 .fff2{
+    text-align: center;
+    line-height: 50px;
+}
+
+.footbox-2 .fff2 h2 a{
+    color: black;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.footbox-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footbox-3 .ffff3{
+}
+
+.footbox-3 .ffff3 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footbox-3 .ffff3 ul li{
+    list-style: none;
+    padding: 8px;
+    
+}
+
+.footbox-3 .ffff3 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: unset;
+    
+}
+.footbox-3 .ffff3 ul li a:hover{
+    color: #707070;
+}
+.footbox-3 .ffff3 p{
+    display: block;
+    margin: 30px auto;
+    letter-spacing: 2px;
+}

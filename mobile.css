@@ -1,0 +1,158 @@
+@media(max-width: 718px){
+    
+        #hedar{
+          flex-direction: row;
+          /* height: 100vh; */
+          align-items: flex-start;
+        }
+
+    #hedar .logomain{
+        padding-top: 7px;
+    }
+
+    #hedar .logomain img{
+        max-width: 153px;
+    }
+
+    #hedar .navbar{
+        height: 100vh;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: flex-start;
+         position: absolute;
+         top: 0;
+         left: 0;
+         background: rgb(241, 240, 240);
+         z-index: 10;
+         transform: translateX(-700px);
+         transition: all 0.5s ease-in;
+
+    }
+
+    #hedar .navbar.active{
+        transform: translateX(0px);
+    }
+    
+
+    #hedar .navbar .closetogle{
+        display: flex;
+    }
+
+    #hedar .navbar ul{
+       flex-direction: column;
+    }
+
+    #hedar .navbar ul li{
+        padding: 11px;
+    }
+
+    #hedar .navbar ul li a{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #hedar .butttogle{
+        display: flex;
+
+    }
+
+
+    /* navbar resposive style End */
+
+      /* home bg ka style chalu  */
+
+    #home-bg{
+        margin-top: 27px;
+    }
+
+    /* End Home */
+
+
+    #somet .childtex{
+        height: 1720px;
+    }
+
+
+    #somet .box{
+        height: 375px;
+    }
+     
+    #somet .box-2{
+        height: 800px;
+       }
+
+
+    #somet .box-3{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #somet .box-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    #somet .box-1 h1{
+        line-height: 45px;
+        word-spacing: 0;
+        letter-spacing: 0;
+        font-size: 2rem;
+        margin-top: 106px;
+        margin-bottom: 42px;
+    }
+
+    #somet .box-1 h3{
+        font-size: 26px;
+    }
+
+    /* #somet .box-2 p{
+        line-height: 23px;
+    } */
+
+    #somet .box-3 h3{
+        line-height: 45px;
+        word-spacing: 0;
+        letter-spacing: 0;
+        font-size: 2rem;
+        /* margin-top: 106px; */
+        /* margin-bottom: 42px; */
+    }
+
+    /* skill ki style ho raha hai */
+
+    #skillap .skillbox .skillbox-1{
+        grid-template-columns: repeat(1, auto);
+    }
+
+
+    /* location ki resposive mobile style  */
+
+    #mainluctionb .locbox-1{
+        grid-template-columns: repeat(1, auto);
+    }
+
+    #mainluctionb .locbox-2{
+        grid-template-columns: repeat(1, auto);
+    }
+
+    /* gallray ki style ho raha hai */
+
+    #gallerybox .gallerymain{
+        grid-template-columns: repeat(1, auto);
+    }
+
+
+
+    /* footer ki style ho raha hai  */
+     
+    .footbox .footbox-5{
+        flex-direction: column;
+    }
+
+}
+
